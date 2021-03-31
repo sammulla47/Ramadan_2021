@@ -121,8 +121,7 @@ table.table tr td:last-child {
 
 .bgimg{
 	background-image: url("../img/lantern.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
+	
 }
 /* ------------------------------                  Table CSS                     -----------------------------------------  */
 .cal-title {

@@ -28,7 +28,7 @@
 	var curmonth = d.getMonth();
 	var days = d.getDate()+1;
 	var curDate = d.getDate()+"-"+monthNames[curmonth]+"-"+d.getFullYear();
-	var rdays = ramdanDays[days-26];
+	var rdays = ramdanDays[days-13];
 
 
 	swal({

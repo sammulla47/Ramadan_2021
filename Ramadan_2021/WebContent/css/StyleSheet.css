@@ -24,6 +24,11 @@ body {
 	src: url('../fonts/Ewert-Regular.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: Color;
+	src: url('../fonts/ColorTube-Regular.ttf') format('truetype');
+}
+
 /* roboto-900 - latin */
 @font-face {
 	font-family: 'Roboto';
@@ -43,13 +48,14 @@ body {
 }
 
 .head {
-	font-family: E;
+	font-family: Color;
 	font-weight: 700;
 }
 
 .fri {
 	background-color: #DAF7A6;
 }
+
 
 .table {
 	font-family: Roboto;
@@ -121,7 +127,7 @@ table.table tr td:last-child {
 
 .bgimg{
 	background-image: url("../img/lantern.jpg");
-	
+	background-repeat:  no-repeat;
 }
 /* ------------------------------                  Table CSS                     -----------------------------------------  */
 .cal-title {

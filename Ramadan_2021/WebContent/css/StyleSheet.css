@@ -127,7 +127,8 @@ table.table tr td:last-child {
 
 .bgimg{
 	background-image: url("../img/Background.jpg");
-	background-position:right;
+	background-position:center;
+	background-repeat: no-repeat;
 	
 }
 /* ------------------------------                  Table CSS                     -----------------------------------------  */

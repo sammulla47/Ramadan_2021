@@ -127,8 +127,8 @@ table.table tr td:last-child {
 
 .bgimg{
 	background-image: url("../img/Background.jpg");
-	background-position:left;
-	background-repeat:  no-repeat;
+	background-position:right;
+	
 }
 /* ------------------------------                  Table CSS                     -----------------------------------------  */
 .cal-title {

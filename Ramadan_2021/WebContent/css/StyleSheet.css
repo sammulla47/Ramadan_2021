@@ -126,8 +126,8 @@ table.table tr td:last-child {
 }
 
 .bgimg{
-	background-image: url("../img/lantern bg.jpg");
-
+	background-image: url("../img/17704.jpg");
+    background-size : cover;
 	background-repeat: no-repeat;
 	
 }

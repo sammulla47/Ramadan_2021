@@ -30,7 +30,7 @@
 	var curDate = d.getDate()+"-"+monthNames[curmonth]+"-"+d.getFullYear();
 	var rdays = ramdanDays[days-15];
 
-	$('.context-style').css('width', '50px');
+	$('.context-style').css('width', '40px');
 	swal({
 	  title: "Ramadan Mubarak!",
 	  text: "Today is " + curDate + " & "+ rdays + " Roze/Ramadan",

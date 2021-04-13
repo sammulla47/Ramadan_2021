@@ -28,13 +28,14 @@
 	var curmonth = d.getMonth();
 	var days = d.getDate()+1;
 	var curDate = d.getDate()+"-"+monthNames[curmonth]+"-"+d.getFullYear();
-	var rdays = ramdanDays[days-13];
+	var rdays = ramdanDays[days-15];
 
-
+	 
 	swal({
 	  title: "Ramadan Mubarak!",
 	  text: "Today is " + curDate + " & "+ rdays + " Roze/Ramadan",
-	  icon: "success",
+	  icon: "img/ramadan.svg",
+	  expanded: true,
 	  button: "Back",
 	});
 	document.addEventListener('contextmenu', event => event.preventDefault());

@@ -86,4 +86,9 @@ tr:nth-child(6) {
     padding-top: 20px;
     padding-right: 60%;
 	}
+.bg-side img{
+	   width: 50%;
+    position: relative;
+    left: 180px;
+}
 }

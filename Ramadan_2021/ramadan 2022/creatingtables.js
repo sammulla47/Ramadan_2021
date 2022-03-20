@@ -1,3 +1,5 @@
+
+
 window.onload = function()
 {
 //    createTable1();
@@ -6,6 +8,7 @@ window.onload = function()
 
      createTable3();
 }
+
 
 function createTable3()
 {

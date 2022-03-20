@@ -90,7 +90,7 @@ tr:nth-child(6) {
 	.bg-side img{
 	   width: 50%;
     position: relative;
-    left: 150px;
+    left: 140px;
 }
 }
 @media(max-width:768px){

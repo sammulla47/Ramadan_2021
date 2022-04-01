@@ -42,13 +42,15 @@
 	/* Legacy iOS */
 }
 
-body {}
+body {
+
+}
 
 .wraps {
 	position: sticky;
 	height: 60px;
 	width: 100%;
-	top: -22px;
+	top: -10px;
 	z-index: 2;
 }
 
@@ -256,9 +258,14 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
 	}
 }
 
-.bg-page {
-
-
+.bg-pages {
+/*
+			 background: url('../../img/6302909.jpg');
+				background-size: cover;
+				backdrop-filter: blur(2px);
+*/
+background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 .acc-body {
@@ -266,4 +273,11 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     background: linear-gradient(to right, #333399, #ff00cc);
     color: #fff;
+}
+
+.head-side-l img:hover {
+    transform: rotateY(180deg);
+}
+.head-side-r img:hover {
+    transform: rotateY(180deg);
 }

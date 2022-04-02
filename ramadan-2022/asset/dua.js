@@ -147,8 +147,6 @@ function showUserAlerts() {
 			title: Roze,
 			text: Dua,
 			imageUrl: "img/Sheik.png",
-			imageWidth: 100,
-			imageHeight: 200,
 			showCloseButton: true,
 			showConfirmButton: false,
 //			confirmButtonClass: confirmButtonClass

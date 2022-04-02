@@ -5,12 +5,12 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
 
 @font-face {
-	font-family: BS;
-	src: url('../fonts/berkshire-swash-v7-latin-regular.ttf') format('truetype'),
-		url('../fonts/berkshire-swash-v7-latin-regular.woff') format('woff'),
-		url('../fonts/berkshire-swash-v7-latin-regular.woff2') format('woff2'),
-		url('../fonts/berkshire-swash-v7-latin-regular.svg') format('svg'),
-		url('../fonts/berkshire-swash-v7-latin-regular.eot') format('embedded-opentype');
+	font-family: 'bs-font';
+	src: url(../fonts/bs/berkshire-swash-v7-latin-regular.ttf') format('truetype'),
+		url('../asset/fonts/bs/berkshire-swash-v7-latin-regular.woff') format('woff'),
+		url('../asset/fonts/bs/berkshire-swash-v7-latin-regular.woff2') format('woff2'),
+		url('../asset/fonts/bs/berkshire-swash-v7-latin-regular.svg') format('svg'),
+		url('../asset/fonts/bs/berkshire-swash-v7-latin-regular.eot') format('embedded-opentype');
 }
 
 @font-face {
@@ -76,7 +76,8 @@ table tr th {
 	width: 800px;
 	word-wrap: break-word;
 	text-align: center;
-	font-family: Bs;
+	font-family: 'Berkshire Swash', sans-serif;
+    font-weight: 400;
 }
 
 .inner_table {
@@ -127,6 +128,8 @@ table tr th {
 	font-size: 34px;
 	line-height: 38px;
 	text-align: center;
+	font-family: 'Courgette', sans-serif;
+    font-weight: 400;
 }
 
 tr:nth-child(6) {
@@ -256,6 +259,12 @@ background: linear-gradient(to right, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, F
 		right: 0px;
 		z-index: -9;
 	}
+	.head-side-l img:hover {
+    transform: rotateY(180deg);
+}
+.head-side-r img:hover {
+    transform: rotateY(180deg);
+}
 }
 
 .bg-pages {

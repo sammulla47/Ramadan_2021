@@ -12,7 +12,7 @@ function showUserAlerts() {
 		
 		var today = new Date().toLocaleDateString();
 		// if else use Roze Dua as per date 
-		if (today == "4/3/2022") {
+		if (today == "04/03/2022") {
 			var Roze = "1 Roze Padhne Ki Dua";
 			var Dua = "- Aye allah hamari zuban par kalmaye tayyab hamesha jaari rakh."
 		}

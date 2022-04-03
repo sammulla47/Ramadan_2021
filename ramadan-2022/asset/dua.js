@@ -8,9 +8,9 @@ function showUserAlerts() {
 	var $isEditSuccessfull = $("div#alertUser");
 
 	if ($isEditSuccessfull.length > 0) {
+		var now = new Date();
+		var today = (now.getMonth()+1)+'/'+now.getDate()+'/'+ now.getFullYear();
 		
-		
-		var today = new Date().toLocaleDateString();
 		// if else use Roze Dua as per date 
 		if (today == "4/3/2022") {
 			var Roze = "1 Roze Padhne Ki Dua";

@@ -75,7 +75,7 @@ var object = [
 				"Days":"Wed",
 				"Date": "13-Apr",
 				"Sehar": "04:58 AM",
-				"Iftar": "05:59 PM"
+				"Iftar": "06:59 PM"
 			},
 			{
 				"Ramadan": 12,
@@ -208,8 +208,8 @@ var object = [
 				"Ramadan": 30,
 				"Days":"Mon",
 				"Date": "02-May",
-				"Sehar": "05:54 AM",
-				"Iftar": "05:17 PM"
+				"Sehar": "04:43 AM",
+				"Iftar": "07:05 PM"
 			}
 ];
 
